@@ -1,6 +1,4 @@
 {
-    "terminal.integrated.fontFamily": "Menlo for Powerline",
-    "python.pythonPath": "./venv/bin/python",
     "editor.renderWhitespace": "all",
     "editor.minimap.enabled": false,
     "editor.suggestSelection": "first",
@@ -71,14 +69,9 @@
         "!Select sequence",
         "!Split sequence"
     ],
-    "terminal.integrated.shell.linux": "/usr/bin/fish",
-    "vs-kubernetes": {
-        "vs-kubernetes.minikube-path.linux": "/home/tochukwuvictor/.vs-kubernetes/tools/minikube/linux-amd64/minikube"
-    },
     "go.formatTool": "goimports",
     "go.useLanguageServer": true,
     "workbench.startupEditor": "newUntitledFile",
-    "python.languageServer": "Jedi",
     "explorer.confirmDelete": false,
     "workbench.colorTheme": "Community Material Theme High Contrast",
     "files.associations": {
