@@ -67,7 +67,8 @@
         "!Sub sequence",
         "!ImportValue sequence",
         "!Select sequence",
-        "!Split sequence"
+        "!Split sequence",
+        "!vault"
     ],
     "go.formatTool": "goimports",
     "go.useLanguageServer": true,
