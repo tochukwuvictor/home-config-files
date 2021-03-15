@@ -1,0 +1,23 @@
+[alias]
+  d = diff
+  dc = diff --cached
+  l = log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit
+[color]
+  branch = auto
+  diff = auto
+  interactive = auto
+  status = auto
+[core]
+  autocrlf = input
+  editor = vi
+  excludesfile = ~/.gitignore
+	hooksPath = /home/tochukwuvictor/etc/git/hooks
+[credential]
+  helper = osxkeychain
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[user]
+  name = Tochukwu Victor
+  email = tjvictor76@gmail.com
+[web]
+  browser = firefox

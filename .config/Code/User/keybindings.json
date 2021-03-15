@@ -1,0 +1,82 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "alt+right",
+        "command": "cursorLineEnd"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "deleteAllRight",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
+    },
+    {
+        "key": "ctrl+e ctrl+e",
+        "command": "-SQLTools.executeQuery",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+e ctrl+q",
+        "command": "-SQLTools.bookmarkSelection",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+e ctrl+r",
+        "command": "-SQLTools.deleteBookmark"
+    },
+    {
+        "key": "ctrl+e ctrl+a",
+        "command": "-SQLTools.runFromBookmarks"
+    },
+    {
+        "key": "ctrl+e ctrl+d",
+        "command": "-SQLTools.describeTable"
+    },
+    {
+        "key": "ctrl+e ctrl+s",
+        "command": "-SQLTools.showRecords"
+    },
+    {
+        "key": "ctrl+e ctrl+s",
+        "command": "-SQLTools.showRecords"
+    },
+    {
+        "key": "ctrl+e ctrl+h",
+        "command": "-SQLTools.runFromHistory"
+    },
+    {
+        "key": "ctrl+e ctrl+b",
+        "command": "-SQLTools.formatSql",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+e ctrl+e",
+        "command": "editor.action.insertCursorAtEndOfEachLineSelected",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+i",
+        "command": "-editor.action.insertCursorAtEndOfEachLineSelected",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+right",
+        "command": "cursorLineEndSelect"
+    },
+    {
+        "key": "alt+left",
+        "command": "cursorLineStart"
+    },
+    {
+        "key": "shift+alt+left",
+        "command": "cursorLineStartSelect"
+    }
+]

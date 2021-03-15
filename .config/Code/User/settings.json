@@ -1,0 +1,83 @@
+{
+    "terminal.integrated.fontFamily": "Menlo for Powerline",
+    "editor.renderWhitespace": "all",
+    "editor.minimap.enabled": false,
+    "editor.suggestSelection": "first",
+    "editor.tabSize": 2,
+    "vsintellicode.modify.editor.suggestSelection": "disabled",
+    "python.jediEnabled": true,
+    "vsintellicode.python.completionsEnabled": false,
+    ".gitlab-ci.yml": {
+        "ansible.autocompletion": false
+    },
+    "[log]": {
+        "editor.wordWrapColumn": 12000
+    },
+    "glassit.alpha": 240,
+    "window.zoomLevel": 0,
+    "terminal.integrated.rendererType": "dom",
+    "workbench.iconTheme": "vscode-great-icons",
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.detectIndentation": false,
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 120,
+    "editor.rulers": [120],
+    "workbench.colorCustomizations": {
+        "editorRuler.foreground": "#ff4081"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "terraform.indexing": {
+        "enabled": false,
+        "liveIndexing": false,
+        "delay": 500,
+        "exclude": [
+            ".terraform/**/*",
+            "**/.terraform/**/*"
+        ]
+    },
+    "terraform.languageServer": {
+        "external": true,
+        "args": [
+            "serve"
+        ]
+    },
+    "yaml.customTags": [
+        "!And",
+        "!If",
+        "!Not",
+        "!Equals",
+        "!Or",
+        "!FindInMap",
+        "!Base64",
+        "!Cidr",
+        "!Ref",
+        "!Sub",
+        "!GetAtt",
+        "!GetAZs",
+        "!ImportValue",
+        "!Select",
+        "!Split",
+        "!Join",
+        "!And sequence",
+        "!If sequence",
+        "!Not sequence",
+        "!Equals sequence",
+        "!Or sequence",
+        "!FindInMap sequence",
+        "!Join sequence",
+        "!Sub sequence",
+        "!ImportValue sequence",
+        "!Select sequence",
+        "!Split sequence"
+    ],
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "python.languageServer": "Jedi",
+    "explorer.confirmDelete": false,
+    "workbench.colorTheme": "Community Material Theme High Contrast",
+    "files.associations": {
+        "*.tf": "terraform"
+    },
+    "shellcheck.exclude": ["SC1091"],
+}
