@@ -122,7 +122,6 @@ alias tfplan="terraform plan"
 
 alias df='df -h'
 alias emacs='emacs -nw'
-alias fd="fdfind"
 alias fnohup='follow nohup.out'
 alias follow='tail -200f'
 alias hi='history'
